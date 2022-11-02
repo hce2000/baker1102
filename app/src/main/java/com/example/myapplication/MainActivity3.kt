@@ -21,7 +21,7 @@ class MainActivity3 : AppCompatActivity() {
         img = findViewById(R.id.img1)
         GlideApp.with(this)
             .asBitmap()
-            .load(R.drawable.bkg)
+            .load(R.drawable.bgc01)
             .into(object : CustomTarget<Bitmap>() {
                 override fun onResourceReady(resource: Bitmap,
                                              transition: com.bumptech.glide.request.transition.Transition<in Bitmap>?) {

@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8E9A6"
+    android:background="#FFECC2"
     tools:context=".BreadStep1_1">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="25dp"
-        android:background="@color/white"
+        android:background="#F1C188"
         android:text="作法"
         android:textAlignment="center"
-        android:textColor="#336666"
+        android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:backgroundTint="#7FCB27"
+        android:backgroundTint="#3EE40000"
         android:text="材料"
         android:textSize="18dp"
         android:textStyle="bold"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#7FCB27"
+        android:backgroundTint="#3EE40000"
         android:text="下一頁"
         android:textSize="18dp"
         android:textStyle="bold"

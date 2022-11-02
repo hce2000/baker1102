@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8E9A6"
+    android:background="#FFECC2"
     tools:context=".MainActivityVideo42">
 
     <TextView
@@ -30,13 +30,13 @@
 
     <ImageView
         android:id="@+id/img2"
-        android:layout_width="356dp"
-        android:layout_height="383dp"
+        android:layout_width="316dp"
+        android:layout_height="350dp"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bkg" />
+        app:srcCompat="@drawable/bgc01" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

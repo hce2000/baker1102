@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8E9A6"
+    android:background="#FFECC2"
     tools:context=".MainActivity9Video">
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#7FCB27"
+        android:backgroundTint="#3EE40000"
         android:text="吐司"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -25,7 +25,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#7FCB27"
+        android:backgroundTint="#3EE40000"
         android:text="全麥養生麵包"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -40,7 +40,7 @@
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#7FCB27"
+        android:backgroundTint="#3EE40000"
         android:text="菠蘿麵包"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -57,5 +57,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bkg" />
+        app:srcCompat="@drawable/bgc01" />
 </androidx.constraintlayout.widget.ConstraintLayout>
